@@ -54,7 +54,7 @@ namespace VendingMachine.Controllers
 
     private void GetBuyables()
     {
-      Console.WriteLine(_Service.GetBuyables(true));
+      // Console.WriteLine(_Service.GetBuyables(true));
       Console.Write("Enter a number to buy from machine");
       string inputString = Console.ReadLine();
     }
