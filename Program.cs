@@ -1,12 +1,14 @@
 ﻿using System;
+using VendingMachine.Controllers;
 
 namespace VendingMachine
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      Console.Clear();
+      new VendingMachineController().Run();
     }
+  }
 }
