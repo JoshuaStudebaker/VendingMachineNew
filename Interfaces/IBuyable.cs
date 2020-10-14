@@ -2,6 +2,7 @@ namespace VendingMachine.Interfaces
 {
   interface IBuyable
   {
-    bool Price { get; set; }
+    bool IsAvailable { get; set; }
+    double Price { get; set; }
   }
 }
